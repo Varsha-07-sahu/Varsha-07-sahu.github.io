@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+}
+
+header{
+    position: fixed;
+    z-index: 10;
+    background-color:  #060735;
+    width: 100%;
+}
+
+.header-left{
+    padding: 12px 12px;
+    display:inline-block;
+    color: white;
+    font-size: 35px;
+    margin-left:5%;
+    font-family: "Informal Roman";
+}
+
+.top-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+    margin-right: 10px;
+  }
+  
+  .top-list li {
+    float: left;
+  }
+  
+  .top-list li a {
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+ .top-back{
+     background-color:#d9d9d9;
+     position: relative;
+     height:650px;
+     width: 100%;
+ }
+
+ .pic{
+     position: absolute;
+     margin-top: 45px;
+     top: 0%;
+     height:600px;
+     left:20%;
+ }
+
+ .welcome-section{
+     position:absolute;
+     top:30%;
+     left:60%;
+     font-family: "Freestyle Script";
+     text-align: center;
+ }
+
+ .welcome{
+  font-size: 70px;
+ }
+
+ .project-section{
+   padding: 100px;
+   display: flex;
+ }
+
+ .project-discription-left{
+   text-align: center;
+   width: 50%;
+ }
+
+ .project-discription-left h2{
+    border-bottom: 2px solid rgb(58, 54, 54);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ .my-description{
+    color:rgb(82, 80, 80);
+    font-size: 20px;
+    padding: 10px;
+ }
+
+ .pro-link{
+   margin-top: :20px;
+   background-color: #00a3cc;
+   padding:10px;
+   border-radius:10px;
+   cursor: pointer;
+ }
+
+ .pro-link a{
+  color:rgba(255, 255, 255,0.9);
+  line-height: 30px;
+  display:inline-block;
+ }
+
+ .pro-link:hover{
+   border: 1px  solid black;
+ }
+
+ .project-discription-right{
+   text-align: center;
+   width: 50%;
+ }
+
+.me-image{
+  height:400px;
+  width: 45%; 
+}
+
+footer{
+  background-color: #060735;
+  padding: 50px 60px;
+  color:white;
+  display: flex;
+}
+
+.footer-left h2{
+  font-size:30px;
+}
+
+.footer-left p{
+  font-size: 15px;
+}
+
+.footer-right{
+  margin-left: 50%;
+}
+
+.footer-right h3{
+  font-size:25px;
+}
+
+.footer-right ul{
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.footer-right ul li a{
+  color:white;
+}
